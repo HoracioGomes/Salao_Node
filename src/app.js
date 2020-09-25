@@ -1,5 +1,7 @@
 import express from 'express'
 import routes from './routes'
+//Ja pega o index.js
+import './database'
 
 class App {
     constructor() {
